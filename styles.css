@@ -1,0 +1,52 @@
+body{
+    background-color:black;
+	font-family: "Roboto-type";
+	}
+.contenedor {
+	background: white;	
+	width: 440px;
+	height: 550px;
+	margin:auto	
+}
+.cabecera{
+	display: flex;
+	height: 10%;
+	padding: 2%;
+	justify-content: space-between;
+}
+.cabecera .cleft {
+	justify-content: flex-start;	
+	height:10% ;
+}
+.cabecera .cright {
+		justify-content: flex-end;
+	}
+.titulo{
+	width: 100%;
+}
+.titulo p{
+	margin-top: 0;
+    margin-bottom: 0;
+}
+.imagen img{
+	width: 440px;
+	height: 335px;
+}
+.iconos{
+	display: flex;
+	height: 10%;
+	padding: 2%;
+	justify-content: space-between;
+
+}
+.iconos .iconosleft{
+justify-content: flex-start;
+}
+.iconos .iconosright{
+	justify-content: flex-end;
+}
+.pie{
+	justify-content: flex-start;
+	font-size:xx-small;	
+	padding: 2%;
+}
